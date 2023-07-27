@@ -1,0 +1,23 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "DocumentImportTask",
+    "note": "Updated pipeline snode after pipeline migration.",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "pipeline_parameters": {
+            "db_name": null,
+            "email": null,
+            "folderName": null,
+            "originalFileName": null,
+            "tenant": null,
+            "workspace": null
+        },
+        "pipeline_path": "mainIntegrationPlexDocument",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

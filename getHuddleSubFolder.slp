@@ -1,0 +1,835 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link100": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output0"
+        },
+        "link101": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link102": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output0"
+        },
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output0"
+        },
+        "link111": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output0"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "petya.lakova@ideagen.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000001_input0": {
+                "label": {
+                    "value": "Filter - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000007_output0": {
+                "label": {
+                    "value": "Map Sub Folder - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": []
+            },
+            "suspendable": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 7,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-jsongenerator",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Generator"
+                    },
+                    "notes": {}
+                },
+                "input": {},
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "arrayElementsAsDocuments": {
+                        "value": true
+                    },
+                    "editable_content": {
+                        "value": "[\n  {\n    \"folderPath\": \"1. Documents\",\n    \"entity\": {\n      \"owner\": {\n        \"name\": \"Adam Bray\",\n        \"email\": \"adam.bray@ideagen.com\",\n        \"rel\": \"owner\",\n        \"links\": [\n          {\n            \"rel\": \"self\",\n            \"href\": \"https://managedservices.huddle.net/apigateway/users/39270134\"\n          },\n          {\n            \"rel\": \"avatar\",\n            \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39270134/avatar?h=9JGletVch5gvdfSnwdNdmuYE1OQSC7j0PxBsKVh-1mQ\"\n          },\n          {\n            \"rel\": \"alternate\",\n            \"href\": \"https://managedservices.huddle.net/user/id/39270134\",\n            \"type\": \"text/html\"\n          }\n        ]\n      },\n      \"folders\": [\n        {\n          \"links\": [\n            {\n              \"rel\": \"bulk-download\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/download\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/folder/55810680\"\n            },\n            {\n              \"rel\": \"create-document\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/documents\"\n            },\n            {\n              \"rel\": \"create-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspace/39564590/files/#/folder/55810680\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"paged-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55810680\"\n            },\n            {\n              \"rel\": \"folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/permissions\"\n            },\n            {\n              \"rel\": \"workspace-summary\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/share\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/lock\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"bulk-move\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/move\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/copy\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\"\n            },\n            {\n              \"rel\": \"upload-archive\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810680/archives\"\n            }\n          ],\n          \"title\": \"Science Department\",\n          \"displayName\": \"Science Department\",\n          \"description\": \"\",\n          \"updated\": \"Mon, 05 Jun 2023 10:17:58 GMT\",\n          \"created\": \"Fri, 02 Jun 2023 11:31:22 GMT\",\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"permissions\": [\n            {\n              \"type\": \"Read\"\n            },\n            {\n              \"type\": \"Edit\"\n            }\n          ]\n        },\n        {\n          \"links\": [\n            {\n              \"rel\": \"bulk-download\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/download\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/folder/55810684\"\n            },\n            {\n              \"rel\": \"create-document\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/documents\"\n            },\n            {\n              \"rel\": \"create-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspace/39564590/files/#/folder/55810684\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"paged-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55810684\"\n            },\n            {\n              \"rel\": \"folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/permissions\"\n            },\n            {\n              \"rel\": \"workspace-summary\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/share\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/lock\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"bulk-move\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/move\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/copy\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\"\n            },\n            {\n              \"rel\": \"upload-archive\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810684/archives\"\n            }\n          ],\n          \"title\": \"IA\",\n          \"displayName\": \"IA\",\n          \"description\": \"\",\n          \"updated\": \"Fri, 02 Jun 2023 11:31:39 GMT\",\n          \"created\": \"Fri, 02 Jun 2023 11:31:39 GMT\",\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"permissions\": [\n            {\n              \"type\": \"Read\"\n            },\n            {\n              \"type\": \"Edit\"\n            }\n          ]\n        },\n        {\n          \"links\": [\n            {\n              \"rel\": \"bulk-download\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/download\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/folder/55810693\"\n            },\n            {\n              \"rel\": \"create-document\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/documents\"\n            },\n            {\n              \"rel\": \"create-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspace/39564590/files/#/folder/55810693\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"paged-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55810693\"\n            },\n            {\n              \"rel\": \"folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/permissions\"\n            },\n            {\n              \"rel\": \"workspace-summary\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/share\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/lock\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"bulk-move\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/move\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/copy\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\"\n            },\n            {\n              \"rel\": \"upload-archive\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55810693/archives\"\n            }\n          ],\n          \"title\": \"Empty\",\n          \"displayName\": \"Empty\",\n          \"description\": \"\",\n          \"updated\": \"Fri, 02 Jun 2023 11:32:35 GMT\",\n          \"created\": \"Fri, 02 Jun 2023 11:32:35 GMT\",\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"permissions\": [\n            {\n              \"type\": \"Read\"\n            },\n            {\n              \"type\": \"Edit\"\n            }\n          ]\n        }\n      ],\n      \"documents\": [\n        {\n          \"title\": \"Document Files\",\n          \"mimeType\": \"application/zip\",\n          \"description\": \"\",\n          \"extension\": \"zip\",\n          \"links\": [\n            {\n              \"rel\": \"content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/307787787/content\",\n              \"type\": \"application/zip\",\n              \"title\": \"Document Files.zip\"\n            },\n            {\n              \"rel\": \"latest-content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/111157346/versions/latest/content\",\n              \"type\": \"application/zip\",\n              \"title\": \"Document Files.zip\"\n            },\n            {\n              \"rel\": \"print-preview\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/versions/307787787/audittrail/printpreview\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/document/111157346\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"edit\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/edit\"\n            },\n            {\n              \"rel\": \"create-version\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/version\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/lock\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/copy\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346\"\n            },\n            {\n              \"rel\": \"last-viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/versions/last-viewed\"\n            },\n            {\n              \"rel\": \"version-history\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/versions\"\n            },\n            {\n              \"rel\": \"comments\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/comments\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"comments-paged\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/pagedcomments?size=50&direction=forwards&sort=descending\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"approvals\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/approvalsbff/documents/111157346/approvals\"\n            },\n            {\n              \"rel\": \"viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/versions/307787787/audittrail/viewed\"\n            },\n            {\n              \"rel\": \"tasksUri\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/tasks/document/111157346/todo\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/permissions\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/share\"\n            },\n            {\n              \"rel\": \"audittrail\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/audittrail\"\n            },\n            {\n              \"rel\": \"current-lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111157346/locks/current\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"huddle://files/documents/111157346\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspaces/39564590/files/111157346\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"shortlink\",\n              \"href\": \"http://my.hdle.it/111157346\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"recipients\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/notifications/documents/111157346/recipients\"\n            },\n            {\n              \"rel\": \"make-offline\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401808/offlineitems\"\n            }\n          ],\n          \"actors\": [\n            {\n              \"name\": \"Adam Bray\",\n              \"email\": \"adam.bray@ideagen.com\",\n              \"rel\": \"owner\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39270134\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39270134/avatar?h=9JGletVch5gvdfSnwdNdmuYE1OQSC7j0PxBsKVh-1mQ\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39270134\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            },\n            {\n              \"name\": \"Adam Bray\",\n              \"email\": \"adam.bray@ideagen.com\",\n              \"rel\": \"updated-by\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39270134\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39270134/avatar?h=9JGletVch5gvdfSnwdNdmuYE1OQSC7j0PxBsKVh-1mQ\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39270134\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            }\n          ],\n          \"version\": 1,\n          \"size\": 10893788,\n          \"updated\": \"Wed, 19 Apr 2023 08:30:13 GMT\",\n          \"created\": \"Wed, 19 Apr 2023 08:30:07 GMT\",\n          \"processingStatus\": \"Complete\",\n          \"views\": -1,\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"publications\": {\n            \"links\": [\n\n            ],\n            \"scope\": \"none\"\n          },\n          \"tags\": [\n\n          ]\n        },\n        {\n          \"title\": \"RobotJobConfig\",\n          \"mimeType\": \"application/zip\",\n          \"description\": \"\",\n          \"extension\": \"zip\",\n          \"links\": [\n            {\n              \"rel\": \"content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/307809270/content\",\n              \"type\": \"application/zip\",\n              \"title\": \"RobotJobConfig.zip\"\n            },\n            {\n              \"rel\": \"latest-content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/111162870/versions/latest/content\",\n              \"type\": \"application/zip\",\n              \"title\": \"RobotJobConfig.zip\"\n            },\n            {\n              \"rel\": \"print-preview\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/versions/307809270/audittrail/printpreview\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/document/111162870\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"edit\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/edit\"\n            },\n            {\n              \"rel\": \"create-version\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/version\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/lock\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/copy\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870\"\n            },\n            {\n              \"rel\": \"last-viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/versions/last-viewed\"\n            },\n            {\n              \"rel\": \"version-history\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/versions\"\n            },\n            {\n              \"rel\": \"comments\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/comments\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"comments-paged\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/pagedcomments?size=50&direction=forwards&sort=descending\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"approvals\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/approvalsbff/documents/111162870/approvals\"\n            },\n            {\n              \"rel\": \"viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/versions/307809270/audittrail/viewed\"\n            },\n            {\n              \"rel\": \"tasksUri\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/tasks/document/111162870/todo\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/permissions\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/share\"\n            },\n            {\n              \"rel\": \"audittrail\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/audittrail\"\n            },\n            {\n              \"rel\": \"current-lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162870/locks/current\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"huddle://files/documents/111162870\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspaces/39564590/files/111162870\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"shortlink\",\n              \"href\": \"http://my.hdle.it/111162870\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"recipients\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/notifications/documents/111162870/recipients\"\n            },\n            {\n              \"rel\": \"make-offline\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401808/offlineitems\"\n            }\n          ],\n          \"actors\": [\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"owner\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            },\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"updated-by\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            }\n          ],\n          \"version\": 1,\n          \"size\": 8074,\n          \"updated\": \"Wed, 19 Apr 2023 10:49:36 GMT\",\n          \"created\": \"Wed, 19 Apr 2023 10:49:35 GMT\",\n          \"processingStatus\": \"Complete\",\n          \"views\": -1,\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"publications\": {\n            \"links\": [\n\n            ],\n            \"scope\": \"none\"\n          },\n          \"tags\": [\n\n          ]\n        },\n        {\n          \"title\": \"job_queue\",\n          \"mimeType\": \"application/octet-stream\",\n          \"description\": \"\",\n          \"extension\": \"sql\",\n          \"links\": [\n            {\n              \"rel\": \"content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/307809509/content\",\n              \"type\": \"application/octet-stream\",\n              \"title\": \"job_queue.sql\"\n            },\n            {\n              \"rel\": \"latest-content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/111162948/versions/latest/content\",\n              \"type\": \"application/octet-stream\",\n              \"title\": \"job_queue.sql\"\n            },\n            {\n              \"rel\": \"print-preview\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/versions/307809509/audittrail/printpreview\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/document/111162948\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"edit\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/edit\"\n            },\n            {\n              \"rel\": \"create-version\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/version\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/lock\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/copy\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948\"\n            },\n            {\n              \"rel\": \"last-viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/versions/last-viewed\"\n            },\n            {\n              \"rel\": \"version-history\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/versions\"\n            },\n            {\n              \"rel\": \"comments\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/comments\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"comments-paged\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/pagedcomments?size=50&direction=forwards&sort=descending\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"approvals\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/approvalsbff/documents/111162948/approvals\"\n            },\n            {\n              \"rel\": \"viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/versions/307809509/audittrail/viewed\"\n            },\n            {\n              \"rel\": \"tasksUri\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/tasks/document/111162948/todo\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/permissions\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/share\"\n            },\n            {\n              \"rel\": \"audittrail\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/audittrail\"\n            },\n            {\n              \"rel\": \"current-lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111162948/locks/current\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"huddle://files/documents/111162948\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspaces/39564590/files/111162948\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"shortlink\",\n              \"href\": \"http://my.hdle.it/111162948\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"recipients\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/notifications/documents/111162948/recipients\"\n            },\n            {\n              \"rel\": \"make-offline\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401808/offlineitems\"\n            }\n          ],\n          \"actors\": [\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"owner\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            },\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"updated-by\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            }\n          ],\n          \"version\": 1,\n          \"size\": 800,\n          \"updated\": \"Wed, 19 Apr 2023 10:53:05 GMT\",\n          \"created\": \"Wed, 19 Apr 2023 10:53:03 GMT\",\n          \"processingStatus\": \"Complete\",\n          \"views\": -1,\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"publications\": {\n            \"links\": [\n\n            ],\n            \"scope\": \"none\"\n          },\n          \"tags\": [\n\n          ]\n        },\n        {\n          \"title\": \"test4GB\",\n          \"mimeType\": \"text/plain\",\n          \"description\": \"\",\n          \"extension\": \"txt\",\n          \"links\": [\n            {\n              \"rel\": \"content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/307959034/content\",\n              \"type\": \"text/plain\",\n              \"title\": \"test4GB.txt\"\n            },\n            {\n              \"rel\": \"latest-content\",\n              \"href\": \"https://files.huddle.net/apigateway/files/documents/111214439/versions/latest/content\",\n              \"type\": \"text/plain\",\n              \"title\": \"test4GB.txt\"\n            },\n            {\n              \"rel\": \"print-preview\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/versions/307959034/audittrail/printpreview\"\n            },\n            {\n              \"rel\": \"integrations\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/document/111214439\"\n            },\n            {\n              \"rel\": \"parent\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"paged-parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"parent-folder\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\",\n              \"title\": \"1. Documents\"\n            },\n            {\n              \"rel\": \"bulk-delete\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n            },\n            {\n              \"rel\": \"edit\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/edit\"\n            },\n            {\n              \"rel\": \"create-version\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/version\"\n            },\n            {\n              \"rel\": \"lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/lock\"\n            },\n            {\n              \"rel\": \"copy\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/copy\"\n            },\n            {\n              \"rel\": \"self\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439\"\n            },\n            {\n              \"rel\": \"last-viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/versions/last-viewed\"\n            },\n            {\n              \"rel\": \"version-history\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/versions\"\n            },\n            {\n              \"rel\": \"comments\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/comments\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"comments-paged\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/pagedcomments?size=50&direction=forwards&sort=descending\",\n              \"count\": \"0\"\n            },\n            {\n              \"rel\": \"approvals\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/approvalsbff/documents/111214439/approvals\"\n            },\n            {\n              \"rel\": \"viewed\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/versions/307959034/audittrail/viewed\"\n            },\n            {\n              \"rel\": \"tasksUri\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/tasks/document/111214439/todo\"\n            },\n            {\n              \"rel\": \"permissions\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/permissions\"\n            },\n            {\n              \"rel\": \"share\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/share\"\n            },\n            {\n              \"rel\": \"audittrail\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/audittrail\"\n            },\n            {\n              \"rel\": \"current-lock\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/111214439/locks/current\"\n            },\n            {\n              \"rel\": \"previews\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/documents/versions/307959034/previews\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"huddle://files/documents/111214439\"\n            },\n            {\n              \"rel\": \"alternate\",\n              \"href\": \"https://managedservices.huddle.net/workspaces/39564590/files/111214439\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"shortlink\",\n              \"href\": \"http://my.hdle.it/111214439\",\n              \"type\": \"text/html\"\n            },\n            {\n              \"rel\": \"recipients\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/notifications/documents/111214439/recipients\"\n            },\n            {\n              \"rel\": \"make-offline\",\n              \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401808/offlineitems\"\n            }\n          ],\n          \"actors\": [\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"owner\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            },\n            {\n              \"name\": \"Konstantin Lalov\",\n              \"email\": \"Konstantin.Lalov@Ideagen.com\",\n              \"rel\": \"updated-by\",\n              \"links\": [\n                {\n                  \"rel\": \"self\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/users/39401088\"\n                },\n                {\n                  \"rel\": \"avatar\",\n                  \"href\": \"https://managedservices.huddle.net/apigateway/files/users/39401088/avatar?h=ZpXgiG5uGPZCmJDB338-0cKJOrZcrY8cfbMK_mWSn_k\"\n                },\n                {\n                  \"rel\": \"alternate\",\n                  \"href\": \"https://managedservices.huddle.net/user/id/39401088\",\n                  \"type\": \"text/html\"\n                }\n              ]\n            }\n          ],\n          \"version\": 1,\n          \"size\": 4294967296,\n          \"updated\": \"Thu, 20 Apr 2023 08:03:01 GMT\",\n          \"created\": \"Thu, 20 Apr 2023 07:46:13 GMT\",\n          \"processingStatus\": \"Complete\",\n          \"views\": -1,\n          \"workspace\": {\n            \"title\": \"Technical Services - Record Importer\",\n            \"links\": [\n              {\n                \"rel\": \"self\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n              },\n              {\n                \"rel\": \"alternate\",\n                \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n                \"type\": \"text/html\"\n              },\n              {\n                \"rel\": \"pinneditems\",\n                \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n              }\n            ]\n          },\n          \"publications\": {\n            \"links\": [\n\n            ],\n            \"scope\": \"none\"\n          },\n          \"tags\": [\n\n          ]\n        }\n      ],\n      \"links\": [\n        {\n          \"rel\": \"bulk-download\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/download\"\n        },\n        {\n          \"rel\": \"integrations\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/integrations/folder/55606230\"\n        },\n        {\n          \"rel\": \"create-document\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/documents\"\n        },\n        {\n          \"rel\": \"create-folder\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n        },\n        {\n          \"rel\": \"self\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n        },\n        {\n          \"rel\": \"alternate\",\n          \"href\": \"https://managedservices.huddle.net/workspace/39564590/files/#/folder/55606230\",\n          \"type\": \"text/html\"\n        },\n        {\n          \"rel\": \"paged-folder\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606230\"\n        },\n        {\n          \"rel\": \"folder\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230\"\n        },\n        {\n          \"rel\": \"permissions\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/permissions\"\n        },\n        {\n          \"rel\": \"workspace-summary\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n        },\n        {\n          \"rel\": \"share\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/share\"\n        },\n        {\n          \"rel\": \"lock\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/lock\"\n        },\n        {\n          \"rel\": \"account-settings\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/accountsettings/39350902\"\n        },\n        {\n          \"rel\": \"document-library-settings\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/folders/root/settings\"\n        },\n        {\n          \"rel\": \"bulk-delete\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/delete\"\n        },\n        {\n          \"rel\": \"bulk-move\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/bulkprocess/move\"\n        },\n        {\n          \"rel\": \"copy\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/copy\"\n        },\n        {\n          \"rel\": \"parent\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606229\"\n        },\n        {\n          \"rel\": \"parent-folder\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606229\"\n        },\n        {\n          \"rel\": \"paged-parent-folder\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/pagedfolders/55606229\"\n        },\n        {\n          \"rel\": \"upload-archive\",\n          \"href\": \"https://managedservices.huddle.net/apigateway/files/folders/55606230/archives\"\n        }\n      ],\n      \"title\": \"1. Documents\",\n      \"displayName\": \"1. Documents\",\n      \"description\": \"\",\n      \"updated\": \"Fri, 02 Jun 2023 11:32:35 GMT\",\n      \"created\": \"Wed, 19 Apr 2023 08:11:32 GMT\",\n      \"workspace\": {\n        \"title\": \"Technical Services - Record Importer\",\n        \"links\": [\n          {\n            \"rel\": \"self\",\n            \"href\": \"https://managedservices.huddle.net/apigateway/workspaces/39564590\"\n          },\n          {\n            \"rel\": \"alternate\",\n            \"href\": \"https://managedservices.huddle.net/workspace/39564590\",\n            \"type\": \"text/html\"\n          },\n          {\n            \"rel\": \"pinneditems\",\n            \"href\": \"https://managedservices.huddle.net/apigateway/files/workspaces/39564590/pinneditems\"\n          }\n        ]\n      }\n    }\n  }\n]"
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "passThroughProp": {
+                        "value": false
+                    },
+                    "supportTypeExts": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$entity.folders.length >0"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter folders"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "excludeList": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$folderPath"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$entity.folders"
+                    },
+                    "showNullValues": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-transform-jsonsplitter",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "JSON Splitter folders"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "excludeList": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Disabled"
+                    },
+                    "includeParents": {
+                        "value": false
+                    },
+                    "includePaths": {
+                        "value": [
+                            {
+                                "includePath": {
+                                    "value": "$original.folderPath"
+                                }
+                            }
+                        ]
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "path": {
+                        "value": "$entity.folders"
+                    },
+                    "showNullValues": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "get FolderURL"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "jsonPath($, \"$links[?(value.rel=='self')]\")[0].href"
+                                        },
+                                        "targetPath": {
+                                            "value": "$folderURL"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$folderPath != \"\" ? $folderPath + \"/\" + $title : $title"
+                                        },
+                                        "targetPath": {
+                                            "value": "$folderPath"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-rest-get",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../../shared/Huddle Account",
+                                "value": "Huddle Account"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-rest-restoauth2account"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "getDocument Library"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "connTimeout": {
+                        "value": 30
+                    },
+                    "cookiePolicy": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "executeDuringPreview": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "followRedirects": {
+                        "value": true
+                    },
+                    "hasNext": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "header": {
+                        "value": []
+                    },
+                    "nextUrl": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "normalizeUri": {
+                        "value": true
+                    },
+                    "paginationInterval": {
+                        "value": 0
+                    },
+                    "processArray": {
+                        "value": false
+                    },
+                    "queryParams": {
+                        "value": []
+                    },
+                    "rawData": {
+                        "value": false
+                    },
+                    "responseEntityType": {
+                        "value": "DEFAULT"
+                    },
+                    "retry": {
+                        "value": 5
+                    },
+                    "retryInterval": {
+                        "value": 3
+                    },
+                    "retryPolicy": {
+                        "value": "Connection errors"
+                    },
+                    "serviceUrl": {
+                        "expression": true,
+                        "value": "$folderURL"
+                    },
+                    "showAllHeaders": {
+                        "value": false
+                    },
+                    "timeout": {
+                        "value": 900
+                    },
+                    "trustAllCerts": {
+                        "value": false
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-flow-filter",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Filter"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "filterExpression": {
+                        "expression": true,
+                        "value": "$entity.folders.length >0"
+                    },
+                    "nullSafeAccess": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Map Sub Folder"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$original.folderPath"
+                                        },
+                                        "targetPath": {
+                                            "value": "$folderPath"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "$entity"
+                                        },
+                                        "targetPath": {
+                                            "value": "$entity"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

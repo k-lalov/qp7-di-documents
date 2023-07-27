@@ -1,0 +1,1908 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link106": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output102"
+        },
+        "link112": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input1",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output102"
+        },
+        "link114": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "output102"
+        },
+        "link115": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input102",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output102"
+        },
+        "link117": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input104",
+            "src_id": "11111111-1111-1111-1111-000000000006",
+            "src_view_id": "output102"
+        },
+        "link119": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input103",
+            "src_id": "11111111-1111-1111-1111-000000000005",
+            "src_view_id": "output102"
+        },
+        "link121": {
+            "dst_id": "11111111-1111-1111-1111-000000000007",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output105"
+        },
+        "link122": {
+            "dst_id": "11111111-1111-1111-1111-000000000008",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output106"
+        },
+        "link123": {
+            "dst_id": "11111111-1111-1111-1111-000000000009",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output107"
+        },
+        "link124": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input107",
+            "src_id": "11111111-1111-1111-1111-000000000009",
+            "src_view_id": "output102"
+        },
+        "link125": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input106",
+            "src_id": "11111111-1111-1111-1111-000000000008",
+            "src_view_id": "output102"
+        },
+        "link126": {
+            "dst_id": "11111111-1111-1111-1111-00000000000a",
+            "dst_view_id": "input105",
+            "src_id": "11111111-1111-1111-1111-000000000007",
+            "src_view_id": "output102"
+        },
+        "link127": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link128": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output1"
+        },
+        "link129": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output101"
+        },
+        "link130": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output102"
+        },
+        "link131": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output103"
+        },
+        "link132": {
+            "dst_id": "11111111-1111-1111-1111-000000000006",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output104"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "galina.velichkova@ideagen.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "Copy Sheet - input0"
+                },
+                "view_type": {
+                    "value": "binary"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-00000000000a_output0": {
+                "label": {
+                    "value": "Union - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "excelFileName"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "draft document import_1.xlsx"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "sheetName"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "3"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "db_target"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "52.50.31.163|8857|QPulse5Live|snaplogic|6c6!WoWa58"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "target_schema"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "dbo"
+                        }
+                    }
+                ]
+            },
+            "suspendable": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {
+                    "output1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "output101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "output102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "output103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "output104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "output105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "output106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    },
+                    "output107": {
+                        "dx_int": 0,
+                        "dy_int": 8,
+                        "rot_int": 0
+                    }
+                },
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 2,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 3,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 4,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 5,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000006": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 6,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000007": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 7,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000008": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 8,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000009": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 9,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-00000000000a": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {
+                    "input1": {
+                        "dx_int": 0,
+                        "dy_int": 1,
+                        "rot_int": 0
+                    },
+                    "input101": {
+                        "dx_int": 0,
+                        "dy_int": 2,
+                        "rot_int": 0
+                    },
+                    "input102": {
+                        "dx_int": 0,
+                        "dy_int": 3,
+                        "rot_int": 0
+                    },
+                    "input103": {
+                        "dx_int": 0,
+                        "dy_int": 4,
+                        "rot_int": 0
+                    },
+                    "input104": {
+                        "dx_int": 0,
+                        "dy_int": 5,
+                        "rot_int": 0
+                    },
+                    "input105": {
+                        "dx_int": 0,
+                        "dy_int": 6,
+                        "rot_int": 0
+                    },
+                    "input106": {
+                        "dx_int": 0,
+                        "dy_int": 7,
+                        "rot_int": 0
+                    },
+                    "input107": {
+                        "dx_int": 0,
+                        "dy_int": 8,
+                        "rot_int": 0
+                    }
+                },
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-flow-binarycopy",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Copy Sheet"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "draftDocument"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output1": {
+                        "label": {
+                            "value": "draftApproval"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output101": {
+                        "label": {
+                            "value": "activeDocument"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output102": {
+                        "label": {
+                            "value": "documentAttachment"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output103": {
+                        "label": {
+                            "value": "changeRequest"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output104": {
+                        "label": {
+                            "value": "changeRequestAttachment"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output105": {
+                        "label": {
+                            "value": "distributuion"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output106": {
+                        "label": {
+                            "value": "review"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    },
+                    "output107": {
+                        "label": {
+                            "value": "relatedElements"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 112
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "draftDocumentDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'1'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDocumentDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": true
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "draftApprovalDocumentDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'2'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDocumentDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "activeDocumentDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'3'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDocumentDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "documentAttachmentDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'4'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getAttachmentDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "changeRequestDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'5'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getChangeRequestDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000006": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000006",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "changeRequestAttachmentDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'6'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getAttachmentDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000007": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000007",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "DistributionDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'7'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDistributionDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000008": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000008",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "documentReviewDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "sheetNumber"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "'8'"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDocumentReviewDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-000000000009": {
+            "class_id": "com-snaplogic-snaps-flow-pipeexec",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000009",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "relatedElementsDifference"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output102": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "batchSize": {
+                        "value": 1
+                    },
+                    "execLabel": {
+                        "expression": true,
+                        "value": null
+                    },
+                    "executable_during_suggest": {
+                        "value": true
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "loopDocument": {
+                        "expression": true
+                    },
+                    "params": {
+                        "value": [
+                            {
+                                "paramName": {
+                                    "value": "excelFileName"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_excelFileName"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "db_target"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_db_target"
+                                }
+                            },
+                            {
+                                "paramName": {
+                                    "value": "target_schema"
+                                },
+                                "paramValue": {
+                                    "expression": true,
+                                    "value": "_target_schema"
+                                }
+                            }
+                        ]
+                    },
+                    "pipeline": {
+                        "expression": false,
+                        "value": "getDocumentRelatedDifference"
+                    },
+                    "poolSize": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "retryLimit": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "reuse": {
+                        "value": false
+                    },
+                    "snaplex": {
+                        "expression": false
+                    },
+                    "snaplexGovernor": {
+                        "value": "LOCAL_SNAPLEX"
+                    },
+                    "timeout": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 102
+            }
+        },
+        "11111111-1111-1111-1111-00000000000a": {
+            "class_id": "com-snaplogic-snaps-flow-union",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-00000000000a",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Union"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input1": {
+                        "label": {
+                            "value": "input1"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input101": {
+                        "label": {
+                            "value": "input2"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input102": {
+                        "label": {
+                            "value": "input3"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input103": {
+                        "label": {
+                            "value": "input4"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input104": {
+                        "label": {
+                            "value": "input5"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input105": {
+                        "label": {
+                            "value": "input6"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input106": {
+                        "label": {
+                            "value": "input7"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "input107": {
+                        "label": {
+                            "value": "input8"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    }
+                },
+                "view_serial": 107
+            }
+        }
+    }
+}

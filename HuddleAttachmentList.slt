@@ -1,0 +1,25 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "HuddleAttachmentList",
+    "note": "Updated pipeline snode after pipeline migration.",
+    "parameters": {
+        "enabled": false,
+        "include_external_urls": true,
+        "job_type": "standard",
+        "pipeline_parameters": {
+            "email": "",
+            "folderName": "",
+            "huddleUrl": "https://managedservices.huddle.net/apigateway/entry",
+            "module": "Document",
+            "operation": "",
+            "s3Path": "ideagen-snaplogic-datastore",
+            "tenant": "",
+            "workspace": ""
+        },
+        "pipeline_path": "mainIntegrationPlexHuddleAttachments",
+        "snaplex_path": null
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}

@@ -1,0 +1,70 @@
+{
+    "class_id": "com-snaplogic-snaps-rest-restoauth2account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "IDG-Dev"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "Huddle Account"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "access_token": {
+                "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                "sym_iv": "WuBPZdVqU4nbtGGxFOmMGg==",
+                "sym_key": "kZh5z8x6GtxFf74X6LgOoTcrZrs2HTetoVC5pNcXSSt31N+Ybq/BWXUSXm1ZzGxzvGNThrZY/d4aAh/R5WHDxNxokwLAnr4BtnUh6XmmOdwJqf6Obqs61jNKnZpHBqnUSGeCTlsXKk++7dKdX0SyNFo7Gb61cVx386WoU+8uy4cqHAWlbWdZBGrJExn514aGqnnwvpe1X657tmgHUcSH3Ph8law5dsIHjPOu5/orVHIVlKHaYsSni/RXSyZEECD4tEJDMs/DNcf/cKCWas9DWwkwumFgo/ZuKo45FopQ/N0+VMqe1qQfsWxFuY+odN5e97M3Yxlh+3Wiw8p4wMvl3A==",
+                "value": "bBJ5C3RbUWfI6VQ4N+z1F99Ky+Fr1xYbDunbREdEvIIEpaA52dnDdu1L0dLZhsvbCQ3K+EIYmeni8I/udnBoAWEecCuE2NMNi+hz2MDNMp8ejcKv+X9KvOpniaZr0FelW8oIwuan1V4JrbrtCIA36jJiOSJPZQf1/yi2rq6WIRYkDV1VHGGtKbP4muNYIgAN/f6cZD+UkUOCrluUY3SGmlxpj5FKkXuvpEwtgTL/JghjfdkEkMZc+5YTSsVCUlKZSPG+pFV6LJTIudm3l2MIxeTHZEkyh5dTHPXeMSFVLbwu/pyST0mOnLhwZJnybXXhG4jmOMtuPQJ5zVx6Zkf9oxN2dABAUziq3vlAZBdF1Uks7yRKQ9lpfvA0Cbi7dtD0Zd/U8OtDe6ZxEpnhF9aHWuldBlIdSfZjT7DOmLejeqBNkayW5YxKysU/gQqxkt7Z2dhOSVGjAN3E86H3PPoahxhmSEggffuw28IpNBeq85oIl8RWrIxYh8/A2YLecckEm1d7CakxeXZ6SfHorMIie87AkIeZzV0vpeVgdaVO6zOg9WVNN61kw6oDL3PvHpGCvkbHZDLpQUmYIgqPYYSqZjddWcL4r8Sng8EksfcqfjFBNp06cGoTho/aoYaQB2i2sG9hG934RpMTNjg5XzDqfed1L9CPX9bDIS2B0YGkPvjaKyEyu7zE5Lhd4psK8ldpQ3xq6ibszONeWVKlYPYnH9zeKO7JEdlGRBOlSQoy4aj1X4HwLDNcR9Yr73S6nYgKdCwW3chGrR/LTPpW9f33UdYmlszjdHytu/FtjjkGIB8pY/j/KGqulvgRdmrElYnkuskTUtsajpDmhoIeMO/vtLc/sn928YP5eBQpBVWqWhqAy9UG824C0yDH5FGi8fzP"
+            },
+            "access_token_expiration": {
+                "value": "1690541373"
+            },
+            "auth_endpoint": {
+                "value": "https://login.huddle.net/"
+            },
+            "auth_endpoint_config": {
+                "value": []
+            },
+            "autoRefreshToken": {
+                "value": true
+            },
+            "client_id": {
+                "value": "IdeagenMS"
+            },
+            "client_secret": {
+                "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                "sym_iv": "fvh2hbwZ7hb/d/AWhSntXg==",
+                "sym_key": "QosQQJCUWC6rzx2QBkfEIgfBwuP9uLXjrr0OZVDBNGTdJ7FrCZ8+ItvEzOjo0VdNMGeKdmpwqzojGY+9vCB6rKcyh83W90Bic04QOCj5ak99ibBQpetF4b8K7yqdDc8teRJIab6bg1QPDYcsuEc5cu6FotZHZTlt/1ksidS41dL6zahkplHh2uieHlG5l0jftcw+QfofW7RWDUzmLKxCxBTKaH8kvAnNYWo1daGS7c2QP6CtQRXB6Wf+qzZ7COXpRRLF2JHQ1tYt07qFfKRQDgnkr2vqaLS1oKeTisJBt1qqNHX5Z8wan4wO+X9d+agcFdyzurHVanHUOJtVaF56gA==",
+                "value": "31PAdSm/aw6mhVUld78/olKWd7nxln8cm8u/DUeiQuqMLnwyDa6YVBKhiJ6FISDdRbQRcUXL/THkLNDs1DyyF0UQ7ym+LOHHokmJW8ZC/ak="
+            },
+            "grant_type": {
+                "value": "client_credentials"
+            },
+            "headerAuth": {
+                "value": true
+            },
+            "sendAsBasicAuth": {
+                "value": false
+            },
+            "sendClientInBody": {
+                "value": false
+            },
+            "token_endpoint": {
+                "value": "https://login.huddle.net/token/"
+            },
+            "token_endpoint_config": {
+                "value": []
+            },
+            "username": {
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

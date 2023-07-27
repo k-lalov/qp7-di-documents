@@ -1,0 +1,876 @@
+{
+    "class_id": "com-snaplogic-pipeline",
+    "class_version": 9,
+    "link_map": {
+        "link183": {
+            "dst_id": "11111111-1111-1111-1111-000000000001",
+            "dst_view_id": "input101",
+            "src_id": "11111111-1111-1111-1111-000000000000",
+            "src_view_id": "output0"
+        },
+        "link184": {
+            "dst_id": "11111111-1111-1111-1111-000000000003",
+            "dst_view_id": "in",
+            "src_id": "11111111-1111-1111-1111-000000000002",
+            "src_view_id": "output101"
+        },
+        "link185": {
+            "dst_id": "11111111-1111-1111-1111-000000000004",
+            "dst_view_id": "input103",
+            "src_id": "11111111-1111-1111-1111-000000000003",
+            "src_view_id": "out"
+        },
+        "link186": {
+            "dst_id": "11111111-1111-1111-1111-000000000002",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000001",
+            "src_view_id": "output0"
+        },
+        "link187": {
+            "dst_id": "11111111-1111-1111-1111-000000000005",
+            "dst_view_id": "input0",
+            "src_id": "11111111-1111-1111-1111-000000000004",
+            "src_view_id": "output104"
+        }
+    },
+    "property_map": {
+        "error": {
+            "error_behavior": {
+                "value": "none"
+            }
+        },
+        "info": {
+            "author": {
+                "value": "petya.lakova@ideagen.com"
+            },
+            "label": {},
+            "notes": {
+                "value": null
+            },
+            "pipeline_doc_uri": {
+                "value": null
+            },
+            "purpose": {
+                "value": null
+            }
+        },
+        "input": {
+            "11111111-1111-1111-1111-000000000000_input0": {
+                "label": {
+                    "value": "build file path - input0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "output": {
+            "11111111-1111-1111-1111-000000000005_output0": {
+                "label": {
+                    "value": "build Response message - output0"
+                },
+                "view_type": {
+                    "value": "document"
+                }
+            }
+        },
+        "settings": {
+            "error_param_table": {
+                "value": []
+            },
+            "error_pipeline": {
+                "expression": false,
+                "value": null
+            },
+            "imports": {
+                "value": []
+            },
+            "param_table": {
+                "value": [
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "s3Path"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "ideagen-snaplogic-datastore"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "module"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "Document"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "workspace"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "Technical Services - Record Importer"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "email"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "konstantin.lalov@ideagen.com"
+                        }
+                    },
+                    {
+                        "capture": {
+                            "value": false
+                        },
+                        "data_type": {
+                            "value": "string"
+                        },
+                        "description": {
+                            "value": null
+                        },
+                        "key": {
+                            "value": "folderName"
+                        },
+                        "required": {
+                            "value": false
+                        },
+                        "value": {
+                            "value": "1. Documents/IA"
+                        }
+                    }
+                ]
+            },
+            "suspendable": {
+                "value": false
+            }
+        }
+    },
+    "render_map": {
+        "default_snaplex": null,
+        "detail_map": {
+            "11111111-1111-1111-1111-000000000000": {
+                "error": {},
+                "grid_x_int": 1,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000001": {
+                "error": {},
+                "grid_x_int": 2,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": "snap catagory"
+            },
+            "11111111-1111-1111-1111-000000000002": {
+                "error": {},
+                "grid_x_int": 3,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000003": {
+                "error": {},
+                "grid_x_int": 4,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000004": {
+                "error": {},
+                "grid_x_int": 5,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            },
+            "11111111-1111-1111-1111-000000000005": {
+                "error": {},
+                "grid_x_int": 6,
+                "grid_y_int": 1,
+                "index": null,
+                "input": {},
+                "output": {},
+                "recommendation_id": null,
+                "rot_int": 0,
+                "rot_tail_int": 0,
+                "source": ""
+            }
+        },
+        "pan_x_num": 0,
+        "pan_y_num": 0,
+        "scale_ratio": 1
+    },
+    "snap_map": {
+        "11111111-1111-1111-1111-000000000000": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000000",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "build file path"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "_s3Path+'/QP7-DI/' + _module + '/' + _workspace + '/' + _folderName + '/' "
+                                        },
+                                        "targetPath": {
+                                            "value": "$prefix"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "'HuddleDocAttachmentList_' + _workspace + '.xlsx'"
+                                        },
+                                        "targetPath": {
+                                            "value": "$filter"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000001": {
+            "class_id": "com-snaplogic-snaps-s3-s3download",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000001",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../../shared/S3SnaplogicIAM",
+                                "value": "S3SnaplogicIAM"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-s3-s3account"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "S3 Download"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input101": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "settings": {
+                    "bucket": {
+                        "expression": true,
+                        "value": "$prefix"
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "getObjectTags": {
+                        "value": false
+                    },
+                    "maxRetries": {
+                        "expression": false,
+                        "value": 3
+                    },
+                    "objectKey": {
+                        "expression": true,
+                        "value": "$filter"
+                    },
+                    "showAdvancedProperties": {
+                        "value": false
+                    },
+                    "suggestInterval": {
+                        "value": []
+                    },
+                    "threadPoolSize": {
+                        "expression": false,
+                        "value": 10
+                    },
+                    "versionId": {
+                        "expression": false,
+                        "value": null
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000002": {
+            "class_id": "com-snaplogic-snaps-binary-write",
+            "class_version": 3,
+            "instance_id": "11111111-1111-1111-1111-000000000002",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Write list of files"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "binary"
+                        }
+                    }
+                },
+                "output": {
+                    "output101": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "UserPermissionsKey": {
+                        "value": []
+                    },
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "cannedAcls": {
+                        "value": "None"
+                    },
+                    "createDir": {
+                        "value": false
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "fileAction": {
+                        "value": "OVERWRITE"
+                    },
+                    "filename": {
+                        "expression": true,
+                        "value": "_workspace + '_ListOfFiles_' + Date.now().toLocaleDateString() +'.xlsx'"
+                    },
+                    "flushIntervalKb": {
+                        "value": -1
+                    },
+                    "preventURLEncoding": {
+                        "value": false
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "validate": {
+                        "value": false
+                    },
+                    "writeEmptyFile": {
+                        "value": true
+                    },
+                    "writeHeader": {
+                        "value": false
+                    }
+                },
+                "view_serial": 101
+            }
+        },
+        "11111111-1111-1111-1111-000000000003": {
+            "class_id": "com-snaplogic-snaps-binary-directorybrowser",
+            "class_version": 1,
+            "instance_id": "11111111-1111-1111-1111-000000000003",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {}
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Browser the size of the file"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "in": {
+                        "label": {
+                            "value": "Input view"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "out": {
+                        "label": {
+                            "value": "Output view"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "Directory": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "Filter": {
+                        "expression": true,
+                        "value": "$filename"
+                    },
+                    "advancedProperties": {
+                        "value": []
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "ignoreEmptyResult": {
+                        "value": true
+                    },
+                    "retries": {
+                        "expression": false,
+                        "value": 0
+                    },
+                    "retryInterval": {
+                        "expression": false,
+                        "value": 1
+                    },
+                    "s3SubfolderMetadataProp": {
+                        "value": true
+                    }
+                },
+                "view_serial": 100
+            }
+        },
+        "11111111-1111-1111-1111-000000000004": {
+            "class_id": "com-snaplogic-snaps-email-emailsender",
+            "class_version": 2,
+            "instance_id": "11111111-1111-1111-1111-000000000004",
+            "property_map": {
+                "account": {
+                    "account_ref": {
+                        "value": {
+                            "label": {
+                                "expression": false,
+                                "label": "../../shared/@ideagenintegrations.com Email",
+                                "value": "@ideagenintegrations.com Email"
+                            },
+                            "ref_class_id": {
+                                "value": "com-snaplogic-snaps-email-smtpaccount"
+                            },
+                            "ref_id": {
+                                "expression": false,
+                                "value": null
+                            }
+                        }
+                    }
+                },
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "Send List Of Files"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input103": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output104": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "attachments": {
+                        "value": [
+                            {
+                                "url": {
+                                    "expression": true,
+                                    "value": "$Path"
+                                }
+                            }
+                        ]
+                    },
+                    "batchSize": {
+                        "value": 100
+                    },
+                    "bcc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "body": {
+                        "expression": true,
+                        "value": "\"<!DOCTYPE html> \n<html> \n<body> \n<p>Hi,</p> \n<p>Attached is a List of files contained  in Huddle Workspace: <i><b>\" + _workspace +\"</i></b> and Folder: <i><b>\" + _folderName +\"</i></b></p>\n<p>You can review the List of Files and use it to fill in your Data Import Template.</p> \n<p>Regards,</p> \n<p>Data Operations Team</p> \n<p>This is a system generated email, please do not reply.</p> \n</body> \n</html>\""
+                    },
+                    "cc": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "emailType": {
+                        "value": "HTML text"
+                    },
+                    "executable_during_suggest": {
+                        "value": false
+                    },
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "from": {
+                        "expression": false,
+                        "value": "data.operations@ideagenplc.com"
+                    },
+                    "passThrough": {
+                        "value": true
+                    },
+                    "retries": {
+                        "value": 3
+                    },
+                    "subject": {
+                        "expression": true,
+                        "value": "_workspace + ' - List of Files'"
+                    },
+                    "tableDataPath": {
+                        "value": null
+                    },
+                    "to": {
+                        "expression": true,
+                        "value": "_email"
+                    }
+                },
+                "view_serial": 104
+            }
+        },
+        "11111111-1111-1111-1111-000000000005": {
+            "class_id": "com-snaplogic-snaps-transform-datatransform",
+            "class_version": 4,
+            "instance_id": "11111111-1111-1111-1111-000000000005",
+            "property_map": {
+                "error": {
+                    "error0": {
+                        "label": {
+                            "value": "error0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    },
+                    "error_behavior": {
+                        "value": "fail"
+                    }
+                },
+                "info": {
+                    "label": {
+                        "value": "build Response message"
+                    },
+                    "notes": {}
+                },
+                "input": {
+                    "input0": {
+                        "label": {
+                            "value": "input0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "output": {
+                    "output0": {
+                        "label": {
+                            "value": "output0"
+                        },
+                        "view_type": {
+                            "value": "document"
+                        }
+                    }
+                },
+                "settings": {
+                    "execution_mode": {
+                        "value": "Validate & Execute"
+                    },
+                    "nullSafeAccess": {
+                        "value": false
+                    },
+                    "passThrough": {
+                        "value": false
+                    },
+                    "transformations": {
+                        "value": {
+                            "mappingRoot": {
+                                "value": "$"
+                            },
+                            "mappingTable": {
+                                "value": [
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"application/json\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$content-type"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"200\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$status"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "true"
+                                        },
+                                        "targetPath": {
+                                            "value": "$content.success"
+                                        }
+                                    },
+                                    {
+                                        "expression": {
+                                            "expression": true,
+                                            "value": "\"200\""
+                                        },
+                                        "targetPath": {
+                                            "value": "$content.code"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                "view_serial": 100
+            }
+        }
+    }
+}

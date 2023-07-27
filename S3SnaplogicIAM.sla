@@ -1,0 +1,79 @@
+{
+    "class_id": "com-snaplogic-snaps-s3-s3account",
+    "class_version": 1,
+    "migration_metadata": {
+        "source_org": "IDG-Dev"
+    },
+    "property_map": {
+        "info": {
+            "label": {
+                "value": "S3SnaplogicIAM"
+            },
+            "notes": {
+                "value": null
+            }
+        },
+        "settings": {
+            "accessKeyId": {
+                "expression": false,
+                "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                "sym_iv": "EfRVcA+cs9WzyoM78Crq4A==",
+                "sym_key": "l886kn2Pqz7TidHq/T9gbqL5y4XpWT0CIqDoNZwvxZoakhXGxUTOra42xW+hnBkpKxZNBtGWgAu+7nMEJVtmjLG4v0+PgHMlzxn18q5kLST11YZ8af3oSyFGVdYcithTFrLO7LGW07Bv8AS3ntqJ9y2Yhs7YETf/FmA7ieOLoauB4v+SVZ6AnGLpBmxrhV9tHhl6Z5rdKTwsA+7z80ev4Ulut6O9QGNpmH323sjhwbsJFvRvphJmIoc59pvy9z4bvPGeHrs/TkYCaqmBIsq7EwHpj+VFcFBKDN4Cqsv33XFTKxUqy9tgOOYBKp1fDCUJ93uI7DNBhH/iIYZ7WiXh+A==",
+                "value": "PNQTZBOa8EDMttXXFeCKkg=="
+            },
+            "crossAccountIAM": {
+                "value": {
+                    "arn": {
+                        "expression": false,
+                        "value": null
+                    },
+                    "externalID": {
+                        "expression": false,
+                        "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                        "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                        "sym_iv": "hjcWcGciNzv6QQ78BytSKA==",
+                        "sym_key": "V355y7Z7JRjIj4AEXGPq7O2IImqKpmtYI8FKp9RjXTe2aTPzi7YhtitmopdNaDmpLhNVPHTp0w4XU0XQ9yboh9dh6M5oB8UCXCvO2UK6UaXhpyMIIgqBolckxRhBg6QEyXqyBOta9uzPgG89LKGB7I/IKHyDvAZBcIKRAexsQxWCC99hlV23u1Ae0t8tpKBlrUpdPLxEjkBxLFTFbTWOKRt+VBOWYVTUgS/goOQQfzY4xEHs8ELY7JL1pka9xmA22CfKm85tmj6YCZKre+mJFg9wluVXWPH5Rh1s3YNjHP810eNvcdWIRK+5JNixjUdGUa6ZbD2fmMk/6HAftVv0lQ==",
+                        "value": "j10HHEHqn7jATuzN+MeCaw=="
+                    }
+                }
+            },
+            "encryption": {
+                "value": {
+                    "encryptionType": {
+                        "expression": false,
+                        "value": "None"
+                    },
+                    "kmsKey": {
+                        "expression": false,
+                        "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                        "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                        "sym_iv": "B9NxZUuttnNFEbRz+SgFEA==",
+                        "sym_key": "gwVHdEneqbstxDmRjaJ8UCGmMj1hLaicdrzVMmSJkXzVzUyWMn7mAKAYMEs0ffXzSvcxogDamhyogeTtjlX6sdpgivHt2yjQQWeLtf/LfURKXCMH32Jw7S+CzXntGaWVkNxLB0RoIHW8i+6Fzh389Apm9rD2t3lbs5PZgLxosqJZnONHq6i6qJ36G7jGIA/hFVcEmY/UQ0ImOYym5TyDi6tZaaPB+FixEjQMg12g8WWkIXAFXwOPH0ZaMF5CLBHTIglP7c8XScE+ohiKgKJ62n9Vgz9St7LwxIAETXiyGh70sN+KD0osLyHgHlJp3bdHfxnlARKy5SjADbLgIZThzg==",
+                        "value": "E8U6K3pGtDZMvRywdDs6Pw=="
+                    },
+                    "kmsRegion": {
+                        "expression": false,
+                        "value": null
+                    }
+                }
+            },
+            "iamRole": {
+                "value": true
+            },
+            "secretKey": {
+                "expression": false,
+                "fp": "c132e129a7760cecf0a9fe60e641b36a19ee51876b21e1e45a140cae3d9b1e03",
+                "key": "account-cloud-managed-5eac59ab3be76d424f82c06e-2020-05-01T17:17:36-595345+00:00",
+                "sym_iv": "fMqX6Q+yNwnbFc5KZnV7cg==",
+                "sym_key": "Yw84/LlCdNosFrgw2kvsQGhxuG6RLj4Hd/swovx66CEstINppFt5pIe8+q97dzqR/RiTWGW5liSmNJCfsoR1iAoxKet0c3n0myVLXcGJtZuS9VCEIHVBKAwGOhRx187KfUQigzXCvlbcHCDHKdPvWauWPFUz9YG8WC4YfL13CNMAi97RpyBaoJE17V4ijX5fGhoBHk2rkOOgVrW3KlN6rxTIvkNI2DS+5dm7KSuqo+O8MeY0W5qcq2VUjllbtOf3A+TN5XvnIHxIj5PuyNrYzDzTIHWLEF025r2Ew5//mQufx5/5GEaKCkDpytgdT9GwTCPhY3JJgoCyZQh/pD+/tQ==",
+                "value": "8/zfUnr/lRPquTicX4XG5Q=="
+            },
+            "securityToken": {
+                "expression": false,
+                "value": null
+            }
+        },
+        "view_serial": 100
+    }
+}

@@ -9,7 +9,7 @@ variables:
   ORG_DEV: IDG-Dev
   ORG_TEST: IDG-Test
   ORG_PRD: IDG-Prod
-  PROJECT_SPACE_TEST: 'QP7_DI_CICD'
+  PROJECT_SPACE_TEST: 'QP7 DI'
   PROJECT_SPACE_STAGING: 'QP7 DI'
   PROJECT_STAGING: 'име на пректа (трябва да се вземе от другите среди)'
 

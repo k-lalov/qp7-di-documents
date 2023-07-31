@@ -57,4 +57,4 @@ jobs:
       USER: $(user)
       PASS: $(pass)
       REPO: $(Build.Repository.Name)
-      BRANCH: new-release/$(Build.SourceBranchName)    
+      BRANCH: $(Build.SourceBranchName)    

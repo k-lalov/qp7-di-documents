@@ -34,7 +34,7 @@ jobs:
       USER: $(user)
       PASS: $(pass)
   - script: |
-      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/assetapi/project/${{ variables.ORG }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber)	 \
+      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/assetapi/project/${{ variables.ORG_TEST }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber)	 \
       -u $USER:$PASS \
       -H "Content-Type: application/json" \
       -d '{"permissions":[{"perms": ["R","W","X"],"subject_type": "USER","inherit": true,"subject": "'$USER'"}]}' \

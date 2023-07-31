@@ -16,7 +16,7 @@ variables:
 jobs:
 
 - job: Test
-  condition: startsWith(variables['Build.SourceBranch'], 'refs/heads/new-release/')
+  condition: startsWith(variables['Build.SourceBranch'], 'refs/heads/new-release')
   displayName: Build Test Project and Run Tests
   pool:
     vmImage: ubuntu-latest  

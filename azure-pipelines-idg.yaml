@@ -9,14 +9,14 @@ variables:
   ORG_DEV: IDG-Dev
   ORG_TEST: IDG-Test
   ORG_PRD: IDG-Prod
-  PROJECT_SPACE_TEST: 'QP7_DI_CICD'
-  PROJECT_SPACE_STAGING: 'QP7 DI'
+  PROJECT_SPACE_TEST: 'QP7%20DI'
+  PROJECT_SPACE_STAGING: 'QP7%20DI'
   PROJECT_STAGING: 'име на пректа (трябва да се вземе от другите среди)'
 
 jobs:
 
 - job: Test
-  condition: startsWith(variables['Build.SourceBranch'], 'refs/heads/new-release/')
+  condition: startsWith(variables['Build.SourceBranch'], 'refs/heads/new-release')
   displayName: Build Test Project and Run Tests
   pool:
     vmImage: ubuntu-latest  
@@ -34,7 +34,7 @@ jobs:
       USER: $(user)
       PASS: $(pass)
   - script: |
-      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/assetapi/project/${{ variables.ORG }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber)	 \
+      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/public/assetapi/project/${{ variables.ORG_TEST }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber)	 \
       -u $USER:$PASS \
       -H "Content-Type: application/json" \
       -d '{"permissions":[{"perms": ["R","W","X"],"subject_type": "USER","inherit": true,"subject": "'$USER'"}]}' \
@@ -57,4 +57,4 @@ jobs:
       USER: $(user)
       PASS: $(pass)
       REPO: $(Build.Repository.Name)
-      BRANCH: new-release/$(Build.SourceBranchName)    
+      BRANCH: $(Build.SourceBranchName)    

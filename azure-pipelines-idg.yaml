@@ -1,5 +1,5 @@
 trigger:
-- new-release/*
+- new-release
 - main
 
 name: CICD_$(Date:yyyyMMdd)_$(Rev:r)

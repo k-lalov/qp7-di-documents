@@ -46,7 +46,7 @@ jobs:
       PASS: $(pass)
   - script: |
       # curl -X POST ${{ variables.URL }}/api/1/rest/project/checkout/${{ variables.ORG_TEST }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber) \
-      export RESULT=$(curl -X POST ${{ variables.URL }}/api/1/rest/project/checkout/${{ variables.ORG_TEST }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber) \
+      export RESULT=$(curl -X POST ${{ variables.URL }}/api/2/5eac561eb357b03e739ae08a/rest/project/checkout/${{ variables.ORG_TEST }}/${{ variables.PROJECT_SPACE_TEST }}/$(Build.BuildNumber) \
       -u $USER:$PASS \
       -H "Content-Type: application/json" \
       -d '{"repo":"'$REPO'","ref":"'$BRANCH'"}' \

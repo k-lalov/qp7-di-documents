@@ -1,4 +1,7 @@
 {
+    "ai_map": {
+        "footprint": "H4sIAAAAAAAAA8srzckBAE/8yyUEAAAA"
+    },
     "class_id": "com-snaplogic-pipeline",
     "class_version": 9,
     "link_map": {
@@ -611,7 +614,7 @@
         },
         "info": {
             "author": {
-                "value": "galina.velichkova@ideagen.com"
+                "value": "konstantin.lalov@ideagen.com"
             },
             "label": {},
             "notes": {
@@ -714,7 +717,7 @@
                             "value": false
                         },
                         "value": {
-                            "value": "52.50.31.163|8857|QPulse5Live|snaplogic|6c6!WoWa58"
+                            "value": "54.247.6.248|8855|QPulse5Live|snaplogic|f%Drzid204"
                         }
                     },
                     {
@@ -754,7 +757,7 @@
                             "value": false
                         },
                         "value": {
-                            "value": "2"
+                            "value": "3"
                         }
                     }
                 ]
@@ -7800,7 +7803,7 @@
                             {
                                 "expression": {
                                     "expression": true,
-                                    "value": "$['Owner First Name'] != $OwnerFN && $['Owner Middle Name'] != $OwnerMN && $['Owner Last Name'] != $OwnerLN"
+                                    "value": "$['Owner First Name'] != $OwnerFN || $['Owner Middle Name'] != $OwnerMN || $['Owner Last Name'] != $OwnerLN"
                                 },
                                 "outputViewName": {
                                     "value": "owner"
@@ -7809,7 +7812,7 @@
                             {
                                 "expression": {
                                     "expression": true,
-                                    "value": "$['Author First Name'] != $AuthorFN && \n$['Author Middle Name'] != $AuthorMN &&\n$['Author Last Name'] != $AuthorLN"
+                                    "value": "$['Author First Name'] != $AuthorFN ||\n$['Author Middle Name'] != $AuthorMN ||\n$['Author Last Name'] != $AuthorLN"
                                 },
                                 "outputViewName": {
                                     "value": "author"
@@ -7899,7 +7902,7 @@
                             {
                                 "expression": {
                                     "expression": true,
-                                    "value": "$['Notification Group First Name'] != $NotiGroupFN &&$['Notification Group Middle Name'] != $NotiGroupMN &&$['Notification Group Last Name'] != $NotiGroupLN"
+                                    "value": "$['Notification Group First Name'] != $NotiGroupFN || $['Notification Group Middle Name'] != $NotiGroupMN || $['Notification Group Last Name'] != $NotiGroupLN"
                                 },
                                 "outputViewName": {
                                     "value": "notifyGroup"
@@ -9762,7 +9765,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$['Notification Group Middle Name'] != null ? $['Notification Group  First Name']+ ' ' + $['Notification Group  Middle Name'] + '  ' +  $['Notification Group Last Name'] : $['Notification Group  First Name']+ ' ' + $['Notification Group Last Name']"
+                                            "value": "$['Notification Group Middle Name'] != null ? $['Notification Group First Name']+ ' ' + $['Notification Group  Middle Name'] + '  ' +  $['Notification Group Last Name'] : $['Notification Group First Name']+ ' ' + $['Notification Group Last Name']"
                                         },
                                         "targetPath": {
                                             "value": "$['Excel Value']"
